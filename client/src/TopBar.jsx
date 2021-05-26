@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import FinalFantasy from './fonts/FinalFantasy-aa4m.ttf'
 
 const TopBarStyle = styled.div`
   height: 125px;
