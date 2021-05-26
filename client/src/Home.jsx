@@ -1,8 +1,17 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const HomeStyle= styled.div`
+  background: green;
+  height: 100%;
+  width: 100%;
+`;
 
 const Home = () => {
     return (
-        <div>Hello World!</div>
+      <HomeStyle>
+          <span></span>
+      </HomeStyle>
     )
 }
 
