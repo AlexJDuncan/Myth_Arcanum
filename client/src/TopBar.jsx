@@ -8,12 +8,14 @@ const TopBarStyle = styled.div`
   color: white;
 `;
 
+const Title = styled.h1`
+  margin: 0;
+`;
+
 const TopBar = () => {
     return (
-        <TopBarStyle>
-          <span>        
-            <h1 style={{margin: 0 + 'px'}}>Myth Arcanum</h1>    
-          </span>
+        <TopBarStyle>       
+            <Title>Myth Arcanum</Title>    
         </ TopBarStyle>
     )
 }

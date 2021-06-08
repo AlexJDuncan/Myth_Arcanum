@@ -5,6 +5,7 @@ import TopBar from './TopBar';
 
 const AppStyle = styled.div`
   height: 100%;
+  text-align: center;
 `;
 
 const App = () => {
